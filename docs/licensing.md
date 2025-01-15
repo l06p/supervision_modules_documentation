@@ -32,11 +32,11 @@ Le licensing est traité par machine, que celle-ci soit physique ou virtuelle, v
 ``` mermaid
 sequenceDiagram
   autonumber
-  Client<<-L06P Software: Fourniture du module Commons
+  L06P Software->>Client: Fourniture du module Commons
   Client->>Client: Installation du module Commons
   Client->>Client: Génération du Fingerprint
   Client->>L06P Software: Commande (Fingerprint + Liste des modules)
   L06P Software->>L06P Software: Génération de la licence
-  Client<<-L06P Software: Fourniture de la licence
+  L06P Software->>Client: Fourniture de la licence
   Client->>Client: Installation de la licence
 ```
