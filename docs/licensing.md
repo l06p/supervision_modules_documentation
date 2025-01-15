@@ -29,13 +29,14 @@ Ainsi, afin de régulariser la situation, deux options sont possibles :
 
 Le licensing est traité par machine, que celle-ci soit physique ou virtuelle, via un fichier de licence dédié à cette installation.
 
-Celui-ci suit le processus suivant :
 ``` mermaid
-graph TD
-  A[Start] --> B[Installation du module commons];
-  B --> C[Génération du fingerprint];
-  C --> D[Passage de la commande incluant le fingerprint et les modules demandés];
-  D --> E[Génération et fourniture du fichier de licence.lic];
-  E --> F[Installation du fichier licence.lic];
-  F --> G[End]
+sequenceDiagram
+  autonumber
+  Client<<-L06P Software: Fourniture du module Commons
+  Client->>Client: Installation du module Commons
+  Client->>Client: Génération du Fingerprint
+  Client->>L06P Software: Commande (Fingerprint + Liste des modules)
+  L06P Software->>L06P Software: Génération de la licence
+  Client<<-L06P Software: Fourniture de la licence
+  Client->>Client: Installation de la licence
 ```
