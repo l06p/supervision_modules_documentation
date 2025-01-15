@@ -3,6 +3,7 @@
 ## Description
 
 Le Licensing est traité de la manière suivante, par module : 
+  
   1. Acquisition initiale des droits d'utilisation du module (incluant une année glissante de souscription valable pour une installation),
   2. (Facultatif) Souscription annuelle complémentaire d'utilisation du module pour chaque installation supplémentaire,
   3. Par la suite, souscription annuelle complémentaire d'utilisation du module pour chaque installation.
