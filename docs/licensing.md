@@ -17,6 +17,7 @@ La souscription annuelle pour un module donné donne l'accès à :
 
 L'absence de souscription annuelle complémentaire d'utilisation d'un module durant plus de 3 mois induit une perte totale des droits d'utilisation module.  
 Ainsi, afin de régulariser la situation, deux options sont possibles : 
+  
   * Nouvelle acquisition initiale des droits d'utilisation du module,
   * Régularisation des souscriptions annuelles complémentaires manquantes. *(un rabais de 20% HT sera automatiquement octroyé*)
 
