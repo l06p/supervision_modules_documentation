@@ -29,6 +29,7 @@ Ainsi, afin de régulariser la situation, deux options sont possibles :
 
 Le licensing est traité par machine, que celle-ci soit physique ou virtuelle, via un fichier de licence dédié à cette installation.
 
+ Celui-ci suit le processus suivant :
 ``` mermaid
 sequenceDiagram
   autonumber
