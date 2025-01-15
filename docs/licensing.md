@@ -1,12 +1,14 @@
 # Licensing
 
-## Description
+## Description générale
 
 Le Licensing est traité de la manière suivante, par module : 
   
   1. Acquisition initiale des droits d'utilisation du module (incluant une année glissante de souscription valable pour une installation),
   2. (Facultatif) Souscription annuelle complémentaire d'utilisation du module pour chaque installation supplémentaire,
   3. Par la suite, souscription annuelle complémentaire d'utilisation du module pour chaque installation.
+
+## Souscriptions annuelles
 
 La souscription annuelle pour un module donné donne l'accès à :
 
@@ -29,7 +31,7 @@ Le licensing est traité par machine, que celle-ci soit physique ou virtuelle, v
 
 Celui-ci suit le processus suivant :
 ``` mermaid
-graph LR
+graph TD
   A[Start] --> B[Installation du module commons];
   B --> C[Génération du fingerprint];
   C --> D[Passage de la commande incluant le fingerprint et les modules demandés];
