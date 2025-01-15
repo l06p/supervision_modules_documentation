@@ -1,0 +1,23 @@
+site_name: L06P Software - Supervision Modules Documentation
+site_description: Documentation dédiés aux Modules de Supervision édités par L06P Software
+copyright: Copyright &copy; 2024 L06P Software
+
+repo_url: https://github.com/l06p/supervision_modules_documentation
+repo_name: l06p/supervision_modules_documentation
+
+theme: 
+  features:
+    - navigation.footer
+    - navigation.tracking
+    - content.code.copy
+  name: material
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: custom
+
+nav:
+  - Accueil: index.md
+  - Composition: composition.md
+  - Licensing: licensing.md
+  - Mise en service: mise_en_service.md
