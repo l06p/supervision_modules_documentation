@@ -24,7 +24,8 @@ pip install --force-reinstall --extra-index-url /tmp/l06p_supervision_modules_co
 ```bash
 pip download -r requirements.txt
 ```
-<u>Note :</u> Une attention particulière est à porter sur la différence entre la plateforme depuis laquelle seront téléchargées les dépendances et celle qui recevra l'installation du module ***Commons***. Les options --platform, --python-version, --implementation, et --abi peuvent être à utiliser en fonction des cas.
+<u>Note :</u> Une attention particulière est à porter sur la différence entre la plateforme depuis laquelle seront téléchargées les dépendances et celle qui recevra l'installation du module ***Commons***.  
+Les options --platform, --python-version, --implementation, et --abi peuvent être à utiliser en fonction des cas.
 
   2. Copier les dépendances téléchargées et le module ***Commons*** sur la machine qui recevra l'installation du module ***Commons*** et entrer les commandes suivantes :
 ```bash
@@ -41,6 +42,7 @@ l06p_get_fingerprint > /tmp/fingerprint.txt
 ## Phase 3 - Commande
 
 Joindre à la commande les éléments suivants : 
+  
   * le fichier fingerprint.txt ou son contenu,
   * la liste des modules à activer.
 
