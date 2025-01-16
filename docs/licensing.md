@@ -27,7 +27,7 @@ Ainsi, afin de régulariser la situation, deux options sont possibles :
 
 ## Fonctionnement logiciel du Licensing
 
-Le licensing est traité par machine, que celle-ci soit physique ou virtuelle, via un fichier de licence dédié à cette installation.
+Le Licensing est traité par machine, que celle-ci soit physique ou virtuelle, via un fichier de licence dédié à cette installation.
 
  Celui-ci suit le processus suivant :
 ``` mermaid
@@ -41,3 +41,10 @@ sequenceDiagram
   L06P Software->>Client: Fourniture de la licence
   Client->>Client: Installation de la licence
 ```
+
+## Limitations
+
+Le Licensing est lié à un certain nombre de propriétés de la machine sur laquelle le Fingerprint a été généré. Ainsi, il n'est pas possible de d'installer/migrer une licence sur une autre machine que celle ayant été utilisée pour produire le Fingerprint.  
+Aussi, la modification de certains paramètres du système induit un blocage du Licensing (le nom d'hôte par exemple).  
+
+En cas de problèmes, l'ouverture d'un Problem Report auprès du support sera nécessaire.
