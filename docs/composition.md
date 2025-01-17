@@ -12,6 +12,6 @@ Les modules de supervision édités par ***L06P Software*** sont les suivants :
     * Python 3.10 ou supérieur
   
 !!! tip "Autres environnements"
-
-  Les modules de supervision édités par ***L06P Software*** peuvent, sans garantie de fonctionnement, être utilisés dans d'autres environnements. En cas de nécessité de support d'un environnement spécifique, l'ouverture d'une Feature Request auprès du support est nécessaire.
+    Les modules de supervision édités par ***L06P Software*** peuvent, sans garantie de fonctionnement, être utilisés dans d'autres environnements.  
+    En cas de nécessité de support d'un environnement spécifique, l'ouverture d'une Feature Request auprès du support est nécessaire.
 
