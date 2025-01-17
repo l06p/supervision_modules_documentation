@@ -8,8 +8,8 @@ Les modules de supervision édités par ***L06P Software*** sont les suivants :
 
 Les modules de supervision édités par ***L06P Software*** sont développés pour des environnements dont les caractéristiques sont les suivante :
     
-    * Debian GNU/Linux 12 ou supérieur / Ubuntu 22.04 LTS ou supérieur,
-    * Python 3.10 ou supérieur.
+  * Debian GNU/Linux 12 ou supérieur / Ubuntu 22.04 LTS ou supérieur,
+  * Python 3.10 ou supérieur.
   
 !!! tip "Autres environnements"
     Les modules de supervision édités par ***L06P Software*** peuvent, sans garantie de fonctionnement, être utilisés dans d'autres environnements.  
