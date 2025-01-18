@@ -1,5 +1,10 @@
 # Mise en service
 
+!!! warning "Sudo or not Sudo!"
+    Il est important d'installer les modules en réalisant une élévation de privilèges lors de l'utilisation de la commande `pip install`.  
+    Sans ceci, les scripts seront installés dans le répertoire `~/.local/bin` de l'utilisateur courant, pouvant provoquer une inaccessibilité par les processus fils de l'application de supervision.  
+    L'utilisation des droits Root via la commande `sudo pip install` permet une installation des scripts dans le répertoire `/usr/local/bin` accessible de tous.
+
 ## Phase 1 - Récupération des modules
 
 Les modules sont accessibles sur le dépôt Github [l06p/supervision_modules](https://github.com/l06p/ "Dépôt L06P Supervision Modules")
@@ -21,14 +26,14 @@ Celui-ci est à installer sur chaque machine nécessitant l'utilisation des modu
 
 Entrer les commandes suivantes :
 ```bash
-pip install --force-reinstall /tmp/l06p_supervision_modules_commons-*.whl
+sudo pip install --force-reinstall /tmp/l06p_supervision_modules_commons-*.whl
 ```
 
 ### Environnement ayant accès à un dépôt privé
 
 Entrer les commandes suivantes :
 ```bash
-pip install --force-reinstall --extra-index-url /tmp/l06p_supervision_modules_commons-*.whl
+sudo pip install --force-reinstall --extra-index-url /tmp/l06p_supervision_modules_commons-*.whl
 ```
 
 ### Environnement complètement déconnecté
@@ -42,7 +47,7 @@ Les options --platform, --python-version, --implementation, et --abi peuvent êt
 
   2. Copier les dépendances téléchargées et le module ***Commons*** sur la machine qui recevra l'installation du module ***Commons*** et entrer les commandes suivantes :
 ```bash
-pip install --force-reinstall --no-index --find-links=/tmp /tmp/l06p_supervision_modules_commons-*.whl
+sudo pip install --force-reinstall --no-index --find-links=/tmp /tmp/l06p_supervision_modules_commons-*.whl
 ```
 
 ## Phase 3 - Génération du Fingerprint
