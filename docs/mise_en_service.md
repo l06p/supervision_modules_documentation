@@ -77,5 +77,6 @@ Pour faciliter l'utilisation, les dépendances externes de l'intégralité des m
 Ainsi, pour les modules opérationnels, l'installation des dépendances externes n'est pas nécessaire du fait que celles-ci ont déjà été installées lors de l'installation du module ***Commons***.  
 
 Les méthodes d'installation décrites dans la Phase 2 peuvent être utilisées pour l'installation des modules opérationnels, en modifiant :
+
   * l06p_supervision_modules_commons-\*.whl par l06p_supervision_modules_\*.whl pour l'installation des tous les modules opérationnels,
   * l06p_supervision_modules_commons-\*.whl par le fichier du module pour l'installation unitaire d'un module.
