@@ -1,6 +1,18 @@
 # Mise en service
 
-## Phase 1 - Installation du module Commons
+## Phase 1 - Récupération des modules
+
+Les modules sont accessibles sur le dépôt Github [l06p/supervision_modules](https://github.com/l06p/ "Dépôt L06P Supervision Modules")
+
+Pour les télécharger, plusieurs options sont possibles : 
+
+  * Directement depuis le navigateur Web,
+  * En clonant le dépôt via les commandes suivantes : 
+  ```bash 
+  git clone https://github.com/l06p/supervision_modules.git
+  ```
+
+## Phase 2 - Installation du module Commons
 
 Le module outil ***Commons*** permet le fonctionnement des modules opérationnels ainsi que la gestion du Licensing.  
 Celui-ci est à installer sur chaque machine nécessitant l'utilisation des modules de supervision édités par ***L06P Software***.
@@ -21,7 +33,7 @@ pip install --force-reinstall --extra-index-url /tmp/l06p_supervision_modules_co
 
 ### Environnement complètement déconnecté
 
-  1. Depuis un poste ayant accès à Pypi, à l'aide du fichier Requirements.txt fournis, entrer les commandes suivantes :
+  1. Depuis un poste ayant accès à Pypi, à l'aide du fichier requirements.txt fournis, entrer les commandes suivantes :
 ```bash
 pip download -r requirements.txt
 ```
@@ -33,14 +45,14 @@ Les options --platform, --python-version, --implementation, et --abi peuvent êt
 pip install --force-reinstall --no-index --find-links=/tmp /tmp/l06p_supervision_modules_commons-*.whl
 ```
 
-## Phase 2 - Génération du Fingerprint
+## Phase 3 - Génération du Fingerprint
 
 Sur chacune des machines nécessitant l'utilisation de modules de supervision édités par ***L06P Software, entrer les commandes suivantes :
 ```bash
 l06p_get_fingerprint > /tmp/fingerprint.txt
 ```
 
-## Phase 3 - Commande
+## Phase 4 - Commande
 
 Joindre à la commande de souscription les éléments suivants : 
   
@@ -51,10 +63,19 @@ Joindre à la commande de souscription les éléments suivants :
 
 En retour, ***L06P Software*** transmet un fichier *l06p_licence.lic* par machine.
 
-## Phase 4 - Installation de la Licence
+## Phase 5 - Installation de la Licence
 
 Copier le fichier *l06p_licence.lic* fournit par ***L06P Software*** dans le répertoire */tmp* de la machine à laquelle celui-ci est destiné, puis entrer les commandes suivantes :
 ```bash
 sudo mkdir -m 777 /usr/local/etc/l06p
 install -m 644 /tmp/l06p_licence.lic /usr/local/etc/l06p/l06p_licence.lic
 ```
+
+## Phase 6 - Installation des modules
+
+Pour faciliter l'utilisation, les dépendances externes de l'intégralité des modules opérationnels sont reportées en tant que dépendances du module ***Commons***.  
+Ainsi, pour les modules opérationnels, l'installation des dépendances externes n'est pas nécessaire du fait que celles-ci ont déjà été installées lors de l'installation du module ***Commons***.  
+
+Les méthodes d'installation décrites dans la Phase 2 peuvent être utilisées pour l'installation des modules opérationnels, en modifiant :
+  * l06p_supervision_modules_commons-\*.whl par l06p_supervision_modules_\*.whl pour l'installation des tous les modules opérationnels,
+  * l06p_supervision_modules_commons-\*.whl par le fichier du module pour l'installation unitaire d'un module.
