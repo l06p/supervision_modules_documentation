@@ -21,6 +21,8 @@ nav:
   - Composition: composition.md
   - Licensing: licensing.md
   - Mise en service: mise_en_service.md
+  - Usage des scripts SNMPv2c : usage_snmpv2c.md
+  - Usage des scripts SNMPv3 : usage_snmpv3.md
 
 markdown_extensions:
   - admonition
