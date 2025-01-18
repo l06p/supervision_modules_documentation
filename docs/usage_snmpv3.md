@@ -11,6 +11,5 @@ Etant automatiquement placés dans le répertoire `/usr/local/bin` lors de l'ins
 
 ## Arguments et paramètres spécifiques
 
-Des arguments et paramètres spécifiques peuvent être nécessaires en fonction du script utilisé.
-  
+Des arguments et paramètres spécifiques peuvent être nécessaires en fonction du script utilisé.  
 Ceux-ci sont précisés dans la documentation spécifique de chacun des scripts.
