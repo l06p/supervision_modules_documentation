@@ -14,7 +14,7 @@ Des arguments et paramètres communs à tous les scripts intéragissant en SNMPv
 Ceux si sont les suivants : 
 
   * -u/--user : Le nom d'utilisateur [Obligatoire],
-  * -a/--auth-protocol : Le protocole d'authentification [Obligatoire] {NONE/MD5/SHA/SHA_224/SHA_256/SHA_384/SHA_512'},
+  * -a/--auth-protocol : Le protocole d'authentification [Obligatoire] {NONE/MD5/SHA/SHA_224/SHA_256/SHA_384/SHA_512},
   * -A/--auth-key : La clé secrète d'authenfification [Obligatoire],
   * -x/--priv-protocol : Le protocole de chiffrement [Obligatoire] {NONE/DES/DES_3/AES_128/AES_192/AES_256},
   * -X/--priv-key : La clé secrète de chiffrement [Obligatoire],
