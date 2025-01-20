@@ -1,7 +1,7 @@
 # Descriptifs des scripts M2MSoft/generic
 
 ## Nommage
-Le nommage des scripts est de la forme suivante : m2msoft_generic_<nom_du_script>_[v2c/v3].
+Le nommage des scripts est de la forme suivante : m2msoft_generic_\<nom_du_script\>_[v2c/v3].
 
 ## Section Sytème
 
