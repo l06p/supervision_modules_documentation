@@ -7,9 +7,12 @@ repo_name: l06p/supervision_modules_documentation
 
 theme: 
   features:
+    - content.code.copy
     - navigation.footer
     - navigation.tracking
-    - content.code.copy
+    - navigation.instant
+    - navigation.path
+    - toc.follow
   name: material
   palette:
     - scheme: slate
