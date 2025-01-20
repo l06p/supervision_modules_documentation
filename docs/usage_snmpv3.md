@@ -23,9 +23,9 @@ Ceux si sont les suivants :
   * --usage : Permet d'afficher une aide textuelle relative à l'utilisation du script [Facultatif].
 
 !!! example "noAuthNoPriv/authNoPriv/authPriv"
-    Bien qu'obligatoires, les paramètres `--aut-protocol` et `--priv-protocol` permettent, lorsque positionnés à la valeur ***NONE***, de réaliser les combinaisons *noAuthNoPriv* et *authNoPriv*.  
+    Bien qu'obligatoires, les paramètres `--auth-protocol` et `--priv-protocol` permettent, lorsque positionnés à la valeur ***NONE***, de réaliser les combinaisons *noAuthNoPriv* et *authNoPriv*.  
     Toute autre combinaison implique le mode *autPriv*.  
-    Un paramètre `--auth-key` et/ou `--priv-key` disposant d'une valeur alors que le paramètre de protocole associé `--aut-protocol` et/ou `--priv-protocol` est à la valeur ***NONE*** implique la non prise en compte de la clé secrète spécifiée.
+    Un paramètre `--auth-key` et/ou `--priv-key` disposant d'une valeur alors que le paramètre de protocole associé `--auth-protocol` et/ou `--priv-protocol` est à la valeur ***NONE*** implique la non prise en compte de la clé secrète spécifiée.
 
 !!! tip "Utilisation du paramètre --usage"
     L'apparition du paramètre `--usage` dans la commande de lancement d'un script SNMPv2c affiche l'aide textuelle et termine l'exécution du script, quels que soient les arguments supplémentaires utilisés.
