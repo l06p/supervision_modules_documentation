@@ -3,7 +3,9 @@
 ## Section Sytème
 
 ### get_system_uptime
-
+  * Versions SNMP :
+    * [SNMPv2](https://custom-icon-badges.demolab.com/badge/SNMPv2-royalblue.svg?logo=activity&logoSource=feather)
+    * [SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
 ### get_system_agent_version
 
 ### get_system_hostname
