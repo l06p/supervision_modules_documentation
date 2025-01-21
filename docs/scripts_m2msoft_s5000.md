@@ -329,12 +329,24 @@ OK: There are currently 9 Calls |
 ## Section Cluster
 
 ###  get_cluster_id
+  * <u>Description :</u> Retourne l'ID de cluster
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_cluster_canal_number
+  * <u>Description :</u> Retourne le numéro de canal du cluster
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_cluster_polling_delay
+  * <u>Description :</u> Retourne l'intervalle de polling du cluster en millisecondes
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_cluster_total_number_members
+  * <u>Description :</u> Retourne le nombre total de membres du cluster
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 
 ## Section TrunkStat
