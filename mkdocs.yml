@@ -27,6 +27,7 @@ nav:
   - Usage des scripts SNMPv2c : usage_snmpv2c.md
   - Usage des scripts SNMPv3 : usage_snmpv3.md
   - "Scripts M2MSoft/generic" : scripts_m2msoft_generic.md
+  - "Scripts M2MSoft/s5000" : scripts_m2msoft_s5000.md
 
 markdown_extensions:
   - admonition
