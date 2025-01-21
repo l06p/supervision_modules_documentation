@@ -3,6 +3,17 @@
 ## Nommage
 Le nommage des scripts est de la forme suivante : **m2msoft_generic_**<*nom_du_script*\>**_[v2c/v3]**.
 
+## Exemples
+```bash
+user@host:$ m2msoft_generic_get_interface_ip_address_v2c -c public -h 127.0.0.1 -p 161 -n enp4s0
+OK: Interface 'enp4s0' IP Address is 192.168.2.1 |
+```
+
+```bash
+user@host:$ m2msoft_generic_get_interface_ip_address_v3 -u test -a MD5 -A testkey123 -x DES -X testkey123 -h 127.0.0.1 -p 161 -n enp0s0
+UNKNOWN: Interface 'enp0s0' not found |
+```
+
 ## Section Sytème
 
 ### get_system_uptime
