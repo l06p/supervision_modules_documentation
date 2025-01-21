@@ -352,19 +352,46 @@ OK: There are currently 9 Calls |
 ## Section TrunkStat
 
 ###  get_trunk_total_number
+  * <u>Description :</u> Retourne le nombre total de Trunks
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_trunk_index
+  * <u>Description :</u> Retourne l'index dans la MIB du Trunk précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![TRUNK_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-TRUNK__NAME-violet.svg) Le nom du Trunk
 
 ###  get_trunk_existence
+  * <u>Description :</u> Retourne l'existance ou non du Trunk précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![TRUNK_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-TRUNK__NAME-violet.svg) Le nom du Trunk
 
 ###  get_trunk_max_capacity
+  * <u>Description :</u> Retourne la capacité maximale du Trunk précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![TRUNK_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-TRUNK__NAME-violet.svg) Le nom du Trunk
 
 ###  get_trunk_active_calls_number
+  * <u>Description :</u> Retourne le nombre d'appels en cours sur le Trunk précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![TRUNK_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-TRUNK__NAME-violet.svg) Le nom du Trunk
 
 ###  get_trunk_saturation
+  * <u>Description :</u> Retourne la valeur numérique de saturation du Trunk précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![TRUNK_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-TRUNK__NAME-violet.svg) Le nom du Trunk
 
 ###  get_trunk_saturation_percentage
+  * <u>Description :</u> Retourne le pourcentage de saturation du Trunk précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![TRUNK_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-TRUNK__NAME-violet.svg) Le nom du Trunk
 
 ###  get_trunk_concurrent_calls_max_number
+  * <u>Description :</u> Retourne le nombre maximal d'appels simultannés sur le Trunk précisé en paramètre depuis le démarrage du S5000
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![TRUNK_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-TRUNK__NAME-violet.svg) Le nom du Trunk
 
 ###  get_trunk_total_number_calls
+  * <u>Description :</u> Retourne le nombre total d'appels établis sur le Trunk précisé en paramètre depuis le démarrage du S5000
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![TRUNK_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-TRUNK__NAME-violet.svg) Le nom du Trunk
