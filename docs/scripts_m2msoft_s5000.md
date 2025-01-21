@@ -35,62 +35,149 @@ OK: There are currently 9 Calls |
 ## Section Endpoint
 
 ###  get_endpoint_total_number
+  * <u>Description :</u> Retourne le nombre total d'endpoints
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_index
+  * <u>Description :</u> Retourne l'index dans la MIB de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_type
+  * <u>Description :</u> Retourne le type de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_total_number_media_entity
+  * <u>Description :</u> Retourne le nombre total d'endpoints de type Media Entity
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_total_number_registered
+  * <u>Description :</u> Retourne le nombre total d'endpoints de type Registered
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_total_number_static_in
+  * <u>Description :</u> Retourne le nombre total d'endpoints de type Static Entity IN
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_total_number_static_out
+  * <u>Description :</u> Retourne le nombre total d'endpoints de type Static Entity OUT
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_protocol
+  * <u>Description :</u> Retourne le protocole de signalisation de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_total_number_h323
+  * <u>Description :</u> Retourne le nombre total d'endpoints dont le protocole de signalisation est H323
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_total_number_sip_tcp
+  * <u>Description :</u> Retourne le nombre total d'endpoints dont le protocole de signalisation est SIP/TCP
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_total_number_sip_tls
+  * <u>Description :</u> Retourne le nombre total d'endpoints dont le protocole de signalisation est SIP/TLS
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_total_number_sip_udp
+  * <u>Description :</u> Retourne le nombre total d'endpoints dont le protocole de signalisation est SIP/UDP
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_existence
+  * <u>Description :</u> Retourne l'existance ou non de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_ttl
+  * <u>Description :</u> Retourne le TTL en secondes de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_remote_ip
+  * <u>Description :</u> Retourne l'adresse IP de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_remote_port
+  * <u>Description :</u> Retourne le numéro de port de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_local_ip
+  * <u>Description :</u> Retourne l'adresse IP du S5000 dialoguant avec de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_local_port
+  * <u>Description :</u> Retourne le numéro de port du S5000 dialoguant avec de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_product_id
+  * <u>Description :</u> Retourne l'identifiant et le numéro de version de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_registrar_mode
+  * <u>Description :</u> Retourne le mode d'enregistrement de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_total_not_registrar_mode
+  * <u>Description :</u> Retourne le nombre total d'endpoints étant dont le mode d'enregistrement est Non Enregistré
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_total_registrar_mode
+  * <u>Description :</u> Retourne le nombre total d'endpoints étant dont le mode d'enregistrement est Enregistré
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_registrar_status
+  * <u>Description :</u> Retourne l'état d'enregistrement de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_total_status_not_registered
+  * <u>Description :</u> Retourne le nombre total d'endpoints dont l'état d'enregistrement est Non Enregistré
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_total_status_registered
+  * <u>Description :</u> Retourne le nombre total d'endpoints dont l'état est d'enregistrement est Enregistré
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_supervision_status
+  * <u>Description :</u> Retourne l'état de supervision de l'endpoint précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![ENDPOINT_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-ENDPOINT__NAME-violet.svg) L'alias ou le numéro de l'endpoint
 
 ###  get_endpoint_total_number_not_supervised
+  * <u>Description :</u> Retourne le nombre total d'endpoints dont l'état de supervision est Non Supervisé
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_total_number_down
+  * <u>Description :</u> Retourne le nombre total d'endpoints dont l'état de supervision est Down
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_endpoint_total_number_up
+  * <u>Description :</u> Retourne le nombre total d'endpoints dont l'état de supervision est Up
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 
 ## Section Calls
