@@ -43,21 +43,44 @@ Le nommage des scripts est de la forme suivante : **m2msoft_generic_**<*nom_du_s
 ## Section Interfaces
 
 ### get_interface_total_number
+  * <u>Description :</u> Retourne le nombre total d'interfaces réseau du serveur
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ### get_interface_index
+  * <u>Description :</u> Retourne l'index dans la MIB de l'interface réseau précisée en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![SNMPv3](https://custom-icon-badges.demolab.com/badge/--n/----name-INTERFACE__NAME-violet.svg) Le nom de l'interface réseau
 
 ### get_interface_existence
+  * <u>Description :</u> Retourne l'existance ou non de l'interface réseau précisée en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![SNMPv3](https://custom-icon-badges.demolab.com/badge/--n/----name-INTERFACE__NAME-violet.svg) Le nom de l'interface réseau
 
 ### get_interface_mac_address
+  * <u>Description :</u> Retourne l'adresse MAC de l'interface réseau précisée en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![SNMPv3](https://custom-icon-badges.demolab.com/badge/--n/----name-INTERFACE__NAME-violet.svg) Le nom de l'interface réseau
 
 ### get_interface_ip_address
+  * <u>Description :</u> Retourne l'adresse IP de l'interface réseau précisée en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![SNMPv3](https://custom-icon-badges.demolab.com/badge/--n/----name-INTERFACE__NAME-violet.svg) Le nom de l'interface réseau
 
 ### get_interface_netmask
+  * <u>Description :</u> Retourne le masque de sous-réseau de l'interface réseau précisée en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![SNMPv3](https://custom-icon-badges.demolab.com/badge/--n/----name-INTERFACE__NAME-violet.svg) Le nom de l'interface réseau
 
 ### get_interface_speed
+  * <u>Description :</u> Retourne la vitesse de l'interface réseau précisée en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![SNMPv3](https://custom-icon-badges.demolab.com/badge/--n/----name-INTERFACE__NAME-violet.svg) Le nom de l'interface réseau
 
 ### get_interface_status
-
+  * <u>Description :</u> Retourne le statut de l'interface réseau précisée en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![SNMPv3](https://custom-icon-badges.demolab.com/badge/--n/----name-INTERFACE__NAME-violet.svg) Le nom de l'interface réseau
 
 ## Section CPU
 
