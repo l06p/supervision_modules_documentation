@@ -286,20 +286,44 @@ OK: There are currently 9 Calls |
 ## Section MTP
 
 ###  get_mtp_total_number
+  * <u>Description :</u> Retourne le nombre total d'instances de MTP
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![N/A](https://custom-icon-badges.demolab.com/badge/N/A-green.svg)
 
 ###  get_mtp_index
+  * <u>Description :</u> Retourne l'index dans la MIB du MTP précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![MTP_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-MTP__NAME-violet.svg) Le nom du MTP
 
 ###  get_mtp_existence
+  * <u>Description :</u> Retourne l'existance ou non du MTP précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![MTP_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-MTP__NAME-violet.svg) Le nom du MTP
 
 ###  get_mtp_address
+  * <u>Description :</u> Retourne l'adresse IP et le numéro de port du MTP précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![MTP_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-MTP__NAME-violet.svg) Le nom du MTP
 
 ###  get_mtp_status
+  * <u>Description :</u> Retourne l'état du MTP précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![MTP_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-MTP__NAME-violet.svg) Le nom du MTP
 
 ###  get_mtp_saturation
+  * <u>Description :</u> Retourne la valeur numérique de saturation du MTP précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![MTP_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-MTP__NAME-violet.svg) Le nom du MTP
 
 ###  get_mtp_saturation_percentage
+  * <u>Description :</u> Retourne le pourcentage de saturation du MTP précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![MTP_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-MTP__NAME-violet.svg) Le nom du MTP
 
 ###  get_mtp_version
+  * <u>Description :</u> Retourne le numéro de version du MTP précisé en paramètre
+  * <u>Versions SNMP :</u> ![SNMPv2c](https://custom-icon-badges.demolab.com/badge/SNMPv2c-royalblue.svg?logo=activity&logoSource=feather) ![SNMPv3](https://custom-icon-badges.demolab.com/badge/SNMPv3-olivedrab.svg?logo=activity&logoSource=feather)
+  * <u>Paramètres Spécifiques :</u> ![MTP_NAME](https://custom-icon-badges.demolab.com/badge/--n/----name-MTP__NAME-violet.svg) Le nom du MTP
 
 
 ## Section Cluster
