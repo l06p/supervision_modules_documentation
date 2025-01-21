@@ -1,7 +1,7 @@
 # Descriptifs des scripts M2MSoft/s5000
 
 ## Nommage
-Le nommage des scripts est de la forme suivante : **###  **<*nom_du_script*\>**_[v2c/v3]**.
+Le nommage des scripts est de la forme suivante : **m2msoft_s5000_**<*nom_du_script*\>**_[v2c/v3]**.
 
 ## Exemples
 ```bash
