@@ -6,4 +6,4 @@ Les modules de supervision édités par ***L06P Software*** fournissent une abst
 
 Cette abstraction est réalisée au travers de scripts Python utilisables depuis l'interpréteur de commande du système d'exploitation au sein duquel ceux-ci sont installés.
 
-Ces scripts respectent le format décrit dans la [Charte de développement de plugins supervision](https://www.monitoring-plugins.org/doc/guidelines.html "Charte de développement de plugins de supervision).
+Ces scripts respectent le format décrit dans la [Charte de développement de plugins supervision](https://www.monitoring-plugins.org/doc/guidelines.html "Charte de développement de plugins de supervision").

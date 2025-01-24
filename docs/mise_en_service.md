@@ -52,7 +52,7 @@ sudo pip install --force-reinstall --no-index --find-links=/tmp /tmp/l06p_superv
 
 ## Phase 3 - Génération du Fingerprint
 
-Sur chacune des machines nécessitant l'utilisation de modules de supervision édités par ***L06P Software, entrer les commandes suivantes :
+Sur chacune des machines nécessitant l'utilisation de modules de supervision édités par ***L06P Software***, entrer les commandes suivantes :
 ```bash
 l06p_get_fingerprint > /tmp/fingerprint.txt
 ```
